@@ -3,34 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>website</title>
+    <!--change the title to the company's name-->
+    <title>Horiseon</title>
   </head>
 
   <body>
-    <div class="header">
+    <!--change the below div to header-->
+    <!--this part of the code is for the header and navigator-->
+    <!--change this part of code if you want a different style to show the name-->
+    <header class="header">
       <h1>Hori<span class="seo">seo</span>n</h1>
-      <div>
+
+
+      <!--change the below div to navigator-->
+      <!--this part of code is to show the products the company offer. update this part if the products change-->
+      <nav>
         <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
           </li>
           <li>
-            <a href="#online-reputation-management"
-              >Online Reputation Management</a
-            >
+            <a href="#online-reputation-management">Online Reputation Management</a>
           </li>
           <li>
             <a href="#social-media-marketing">Social Media Marketing</a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div class="hero"></div>
+      </nav>
+    </header>
+
+
+    <!--change the below div to img-->
+    <!--this part of the code is for the background image. you can change the background of the webpage here-->
+    <img
+     src="./assets/images/digital-marketing-meeting.jpg"
+     class="background-img"
+     alt="an image about a digtital marketing meeting"
+    />
+
+    <!--change the below div to section-->
+    <!--this part of the code contains the contents to help customer understand the products better. Update this part if the products change -->
     <div class="content">
+
+      <!--first product-->
       <div class="search-engine-optimization">
+        <!--add alt for the img-->
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
+          alt="search-engine-optimization" 
         />
         <h2>Search Engine Optimization</h2>
         <p>
@@ -40,13 +61,17 @@
           visibility and find the right customers for your business.
         </p>
       </div>
+
+      <!--second product-->
       <div
         id="online-reputation-management"
         class="online-reputation-management"
       >
+      <!--add alt for the img-->
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
+          alt="online-reputation-management"
         />
         <h2>Online Reputation Management</h2>
         <p>
@@ -57,10 +82,14 @@
           business.
         </p>
       </div>
+
+      <!--third product-->
       <div id="social-media-marketing" class="social-media-marketing">
+        <!--add alt for the img-->
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
+          alt="an image to demonstrate how social media impacts the social-media-marketing"
         />
         <h2>Social Media Marketing</h2>
         <p>
@@ -71,6 +100,9 @@
         </p>
       </div>
     </div>
+
+
+
     <div class="benefits">
       <div class="benefit-lead">
         <h3>Lead Generation</h3>
@@ -97,9 +129,12 @@
         </p>
       </div>
     </div>
-    <div class="footer">
+
+    <!--change the div to footer-->
+    <!--footer of the webpage-->
+    <footer class="footer">
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
-    </div>
+    </footer>
   </body>
 </html>
