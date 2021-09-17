@@ -1,13 +1,17 @@
+
+/*universal selector*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/*element selector for body*/
 body {
   background-color: #d9dcd6;
 }
 
+/*class selector for header*/
 .header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -16,41 +20,51 @@ body {
   color: #ffffff;
 }
 
+/*this selector controls the property of h1 in header*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/*this selector controls the sytle of the letter selected in company's name*/
 .header h1 .seo {
   color: #d9dcd6;
 }
-/*change div to nav*/
-.header nav {
+
+
+/*this selector controls the property of navigation bar*/
+ nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
-/*change div to nav*/
+
+/*this selector controls the property of ul tag in navigator*/
 .header nav ul {
   list-style-type: none;
 }
-/*change div to nav*/
+
+/*this selector controls the property of list in navigator*/
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/*this selector controls the property of listed items in the list*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/*this selector controls the property of paragraphs elements*/
 p {
   font-size: 16px;
 }
-/*change the name to background-img*/
+
+
+/*this selector controls the background image and its property*/
 .background-img {
   height: 800px;
   width: 100%;
@@ -60,22 +74,51 @@ p {
   background-position: center;
 }
 
+/*this selector is to make the image to stay to left side of the section*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/*this selector is to make the image to stay to the right side of the section */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+
+
+
+/*this selector controls the property of the contents that will show in the main*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/*this selector controls the property of each sub section in the main and name it: product-intro*/
+.product-intro {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*this selector controls the property of the image in each sub section in the main */
+.product-intro img {
+  max-height: 200px;
+}
+
+/*this seletor controls the property of the section header in each sub section */
+.product-intro h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+
+/*this selector controls the property of the contents that will show in the aside */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,108 +130,26 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+/*this selector controls the property of each sub benefit section */
+.benefit-style {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*this selector controls the property of the section header inside each sub benefit section*/
+.benefit-style h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+/*this selector controls the propety of the image inside each sub benefit section*/
+.benefit-style img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/*this selector controls the property of the footer section*/
 .footer {
   padding: 30px;
   clear: both;
@@ -197,6 +158,7 @@ p {
   text-align: center;
 }
 
+/*this selector controls the property of the section header in footer*/
 .footer h2 {
   font-size: 20px;
 }
