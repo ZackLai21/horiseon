@@ -4,7 +4,7 @@ This landing page is created for the marketing agency "Horiseon". It's made by H
 
 
 ## Link to the page
-
+[a link](https://zacklai21.github.io/horiseon/)
 
 
 ## Screenshoot of the page
